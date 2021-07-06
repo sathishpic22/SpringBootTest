@@ -23,7 +23,7 @@ public class HelloWorldControlle {
 	@RequestMapping("/")
 	public String login() {
 	
-		return "Welcome to spring boot page...";	
+		return "Welcome to spring boot page...welcome to spring boot ";	
 	}
 /*@RequestMapping("/Login" )
 public String Logsucc(@RequestParam("text1") String i,@RequestParam("text2") String j,Model m) {
