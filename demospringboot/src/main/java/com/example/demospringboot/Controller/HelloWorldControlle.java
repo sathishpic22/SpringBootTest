@@ -28,7 +28,7 @@ public class HelloWorldControlle {
 	@RequestMapping("/")
 	public String login() {
 	
-		return "Welcome to spring boot page...welcome to spring boot lksdjfhalsdkjfhadskjlfhsdjklfasl";	
+		return "Welcome to spring boot page...welcome to spring boot lksdjfhalsdkjfhadskjlfhsdjklfasldfsdfsdfsdmmmm";	
 	}
 	
 	
@@ -44,6 +44,15 @@ public class HelloWorldControlle {
 	tutrepo.save(tut1);
 	
 	}
+	
+	@RequestMapping("/list")
+	public List<Tutorial> list() {
+		
+		
+	return (List<Tutorial>) tutrepo.findAll();
+	
+	}
+	
 	
 	
 
